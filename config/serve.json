@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://asmurph.sharepoint.com/SitePages/Today.aspx",
+      "customActions": {
+        "d5840ce8-04c4-413f-87c5-d8ece88e0b3c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "sparqOnlinePageAlerts": {
+      "pageUrl": "https://asmurph.sharepoint.com/SitePages/Today.aspx",
+      "customActions": {
+        "d5840ce8-04c4-413f-87c5-d8ece88e0b3c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

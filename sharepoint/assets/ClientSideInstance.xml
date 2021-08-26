@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SparqOnlinePageAlerts"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="d5840ce8-04c4-413f-87c5-d8ece88e0b3c"
+        Properties="{&quot;listTitle&quot;:&quot;News&quot;,&quot;listViewTitle&quot;:&quot;Published News&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
